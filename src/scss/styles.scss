@@ -1,4 +1,15 @@
 @use 'base/normalize.scss';
 @use 'base/initial-reset.scss';
 @use 'config/variables.scss';
+@use 'helpers/helpers.scss';
 @use 'blocks/body.scss';
+@use 'blocks/home.scss';
+@use 'blocks/header.scss';
+@use 'blocks/logo.scss';
+@use 'blocks/score.scss';
+@use 'blocks/main.scss';
+@use 'blocks/game.scss';
+@use 'blocks/steps.scss';
+@use 'blocks/options.scss';
+@use 'blocks/buttons.scss';
+@use 'blocks/footer.scss';

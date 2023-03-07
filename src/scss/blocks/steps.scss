@@ -1,0 +1,38 @@
+.first-step {
+  display: none;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &--simple {
+    background-image: url(../assets/images/bg-triangle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &--advanced {
+    background-image: url(../assets/images/bg-pentagon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &--show {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+  }
+
+  &--advanced.first-step--show {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.second-step {
+  display: none;
+
+  &--show {
+    display: flex;
+    justify-content: space-between;
+  }
+}

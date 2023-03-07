@@ -1,5 +1,12 @@
 html {
 }
 body {
-  background-image: url('/assets/images/cat.jpeg');
+  max-width: 1440px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem 0;
+  color: #fff;
+  background-image: var(--background-gradient);
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }

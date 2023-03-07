@@ -2,14 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- PON UN FAVICON!!! -->
-    <link rel="icon" type="image/svg+xml" href="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock Paper Scissors</title>
   </head>
+
   <body>
-    <img src="./assets/images/cat.jpeg" alt="" />
+    <div class="home-container">
+      <div class="game-modes">
+        <a href="simple.html">
+          <div class="game-modes__item">
+            <img src="./assets/images/image-rules.svg" alt="" />
+            <span>SIMPLE MODE</span>
+          </div>
+        </a>
+        <a href="advanced.html">
+          <div class="game-modes__item">
+            <img src="./assets/images/image-rules-bonus.svg" alt="" />
+            <span>ADVANCED MODE</span>
+          </div>
+        </a>
+      </div>
+    </div>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
